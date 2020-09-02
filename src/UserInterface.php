@@ -1,9 +1,10 @@
 <?php
 
 
-namespace Jokuf\User\User;
+namespace Jokuf\User;
 
 
+use Jokuf\Authorization\RoleInterface;
 
 interface UserInterface
 {
@@ -52,14 +53,4 @@ interface UserInterface
      * @return RoleInterface[]
      */
     public function getRoles(): array;
-
-    /**
-     * @param RoleInterface $role
-     */
-    public function addRole(RoleInterface $role);
-
-    /**
-     * @param RoleInterface $role
-     */
-    public function removeRole(RoleInterface $role);
 }
