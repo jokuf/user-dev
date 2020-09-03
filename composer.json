@@ -2,6 +2,7 @@
     "name": "jokuf/user-dev",
     "type": "library",
     "minimum-stability": "dev",
+    "description": "",
     "authors": [
         {
             "name": "jokuf",
@@ -17,5 +18,9 @@
     "require": {
         "jokuf/authorization-dev": "*"
     },
-    "description": ""
+    "autoload": {
+        "psr-4": {
+            "Jokuf\\User\\": "src/"
+        }
+    }
 }
