@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Jokuf\User;
+namespace Jokuf\Contract\User;
 
 
 use Jokuf\Authorization\RoleInterface;

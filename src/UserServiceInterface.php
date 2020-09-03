@@ -1,6 +1,6 @@
 <?php
 
-namespace Jokuf\User;
+namespace Jokuf\Contract\User;
 
 
 interface UserServiceInterface
